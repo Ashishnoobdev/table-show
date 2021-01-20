@@ -26,7 +26,7 @@ const TableView = (props) => {
             <thead>
                 <tr>
                 <th>ID</th>
-                <th>Name</th>
+                <th onClick={props.onSort}>Name</th>
                 <th>Username</th>
                 <th>Email</th>
                 <th>Phone</th>
